@@ -1,0 +1,15 @@
+{
+  "apps": [
+    {
+      "name": "bots",
+      "script": "./app.js",
+      "exec_mode": "fork",
+      "error_file": "/tmp/_logs/mongodb/child-err.log",
+      "out_file": "./examples/child-out.log",
+      "watch": true,
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
